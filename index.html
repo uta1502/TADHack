@@ -12,20 +12,36 @@
 </head>
 
 <body>
-  <div id="main">
+  <div class="well container-fluid" id="main">
   <body background="http://res.cloudinary.com/di03csmmg/image/upload/v1506141645/doctors_zclgac.jpg">
   <h1 class="text-center " id="namehead" style="color:blue">Go Doctors</h1>
   <div class = "search_main">
     <div id="search_div">
       <input type="text" class="search_bar rounded" name="search" placeholder="Conditions" >
     </div>
-   <form action="page2.html">
+
+    <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Location</button>
+  <div id="myDropdown" class="dropdown-content">
+    <select class = "list">
+      <option value = "Sydney">Sydney</option>
+      <option value = "Melbourne">Melbourne</option>
+      <option value = "Brisbane">Brisbane</option>
+      <option value = "Perth">Perth</option>
+      <option value = "Canberra">Canberra</option>
+      <option value = "Gold Coast">Gold Coast</option>
+    </select>
+  </div>
+</div>
+
+   <form action="page1.html">
     <input type="submit" class = "submit" value = "Search">
     </form>
   </div>
 
 </div>
 
+    <script  src="js/index.js"></script>
 
 </body>
 </html>

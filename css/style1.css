@@ -1,0 +1,46 @@
+#center{
+  text-align:center;
+}
+.search_bar{
+  padding:6px 15px 6px 30px;
+	margin:3px; 
+	background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  width: 80%;
+}
+
+.rounded{
+  border-radius:15px; 
+	-moz-border-radius:15px; 
+	-webkit-border-radius:15px; 
+}
+
+ul{
+	margin: 10px;
+  list-style-type: none;
+}
+ 
+ul li {
+  font-size: 30px;
+  border: px solid black;
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+ 
+}
+ 
+img {
+  margin-right: 5px;
+  vertical-align: middle;
+  border: 1px solid #ccc;
+  height: 50px;
+  width: 50px;
+  border-radius:50%;
+  margin-right:20px;
+}
+
+ul li a {
+  text-decoration: none
+}
